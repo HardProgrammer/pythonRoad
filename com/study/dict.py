@@ -99,3 +99,14 @@ print("清空后的字典：", d)
 
 # 直接删除字典，内存释放
 del d
+
+dict_test = {'name':"11","age":12,"class":"yzd"}
+# 输出字典可打印的字符串表示
+print(str(dict_test))
+
+# 输出键的总个数
+print(len(dict_test))
+print(dict_test.get("aa"))
+
+key = dict_test.popitem()
+print(key[0])

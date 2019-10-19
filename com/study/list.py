@@ -48,5 +48,10 @@ print("del后的元素", L)
 
 # 清空列表
 L.clear()
-print(L)
+print("清空列表后：",L)
 
+# 元组
+list_y = (1,3,4,8,6)
+
+list_list = list(list_y)
+print("元组转化为列表：",list_list)

@@ -121,3 +121,4 @@ print("   My Love  ".replace("ov", "l"))
 
 # 根据某个字符进行分割成列表
 print("   My Love  ".split(" "))
+

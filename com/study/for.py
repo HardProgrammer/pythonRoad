@@ -32,6 +32,7 @@ for i in [1, 2, 3, 4, 5, 6, 7, 8, 9]:
 for i in range(1, 10):
     for j in range(i, 10):
         print("%d*%d=%2d" % (i, j, i * j), end=" ")
+    #换行
     print("")
 
 # 左下三角形打印乘法表
@@ -39,3 +40,11 @@ for i in range(1, 10):
     for j in range(1, i + 1):
         print("%d*%d=%2d" % (i, j, i * j), end=" ")
     print("")
+
+# 获取10到20的质数
+for num in range(1,100):
+    for i in range(2,num):
+        if num%i == 0:
+            break
+    else:
+        print(num, "是一个质数")

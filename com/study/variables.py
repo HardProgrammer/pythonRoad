@@ -38,3 +38,5 @@ del name
 a = b = c = 1
 print("a=",a,",b=",b,",c=",c)
 
+# 返回复数 (4+3j)
+print(complex(4,3))

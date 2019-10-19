@@ -33,3 +33,14 @@ a,b = [2,3]
 print(a)  
 # b的值为3          
 print(b)
+
+list_a = [2,3,4,5,6,7]
+
+if a in list_a:
+    print("a在list_a中")
+
+# 返回列表元素中的最大值
+print(max(list_a))
+
+# 返回列表元素中的最小值
+print(min(list_a))
