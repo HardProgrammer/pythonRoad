@@ -25,7 +25,7 @@ SECRET_KEY = 'z^5+ggby&y@-j0^8*i_+5jt*#ob-57t3243%q_q4*(@k@%i9&n'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -83,11 +83,11 @@ DATABASES = {
     # }
      'default': {
         'ENGINE': 'django.db.backends.mysql',   
-        'NAME': 'liuxw',                            #这里写你的数据库名
-        'USER':'liuxw',                             #这里写用户名
-        'PASSWORD':'liuxw',                         #密码
-        'HOST':'192.168.32.184',                    #数据库所在主机的ip，如果是本机就写localhost
-        'PORT':'3306',                              #端口号，默认3306
+        'NAME': 'thinker',                             #这里写你的数据库名
+        'USER':'thinker',                              #这里写用户名
+        'PASSWORD':'123456.lxw',                       #密码
+        'HOST':'127.0.0.1',                            #数据库所在主机的ip，如果是本机就写localhost
+        'PORT':'3306',                                 #端口号，默认3306
     }
 }
 
