@@ -77,18 +77,18 @@ WSGI_APPLICATION = 'HelloWorld.wsgi.application'
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
 DATABASES = {
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.sqlite3',
-    #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    # }
-     'default': {
-        'ENGINE': 'django.db.backends.mysql',   
-        'NAME': 'thinker',                             #这里写你的数据库名
-        'USER':'thinker',                              #这里写用户名
-        'PASSWORD':'123456.lxw',                       #密码
-        'HOST':'127.0.0.1',                            #数据库所在主机的ip，如果是本机就写localhost
-        'PORT':'3306',                                 #端口号，默认3306
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
+    #  'default': {
+    #     'ENGINE': 'django.db.backends.mysql',   
+    #     'NAME': 'blog',                             #这里写你的数据库名
+    #     'USER':'blog',                              #这里写用户名
+    #     'PASSWORD':'123456.lxw',                       #密码
+    #     'HOST':'192.168.190.129',                            #数据库所在主机的ip，如果是本机就写localhost
+    #     'PORT':'3306',                                 #端口号，默认3306
+    # }
 }
 
 
