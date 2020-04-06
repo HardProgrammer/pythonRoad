@@ -1,8 +1,6 @@
 '''
     输入与格式化输出
 '''
-import sys
-
 name = input("Name:")
 age = input("Age:")
 salary = input("Salary:")
@@ -16,7 +14,3 @@ Salary: %s
 ''' % (name, name, age, salary)
 
 print(mes)
-
-print(path)
-
-

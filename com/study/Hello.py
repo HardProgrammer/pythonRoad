@@ -10,7 +10,6 @@
     tab键和4个空格不相等。
     windows和linux系统的tab键不相同。
 '''
-
 # 输出语句
 print("Hello World！")
 
