@@ -16,4 +16,4 @@ os.system("dir")
 
 
 # 模拟cmd--保存结果
-print(os.popen("dir").read())
+print(os.popen("dir").read())qq
