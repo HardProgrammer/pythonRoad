@@ -4,6 +4,17 @@
     拼接字符串：join的效率比+ 高
 '''
 
+myStr = "测试"
+
+print(myStr)
+
+# 编码格式
+print(myStr.encode("utf-8"))
+
+# 编码后解码
+print(myStr.encode("utf-8").decode("utf-8"))
+
+
 # 创建一个字符串
 str1 = "name is llnxw"
 str2 = "this is string"
