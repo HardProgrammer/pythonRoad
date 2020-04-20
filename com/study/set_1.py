@@ -1,13 +1,20 @@
 '''
+    set：无序的，去重
     set的比较，包含，交集，并集，差集
 '''
 
 # set比较是否相等
 print(set("aaabbb") == set("ab"))
 
-name_a = set([1, 2, 3, 4, 5, 6])
+# 去重
+name_x = set(["测试","xx","aa","xx"])
+print("name_x:", name_x)
+
+name_a = set([1, 2, 9, 4, 5, 6])
 
 name_b = set([1, 2, 44, 11, 22, 6])
+
+print("name_a:", name_a)
 
 # 交集
 print(name_a.intersection(name_b))
