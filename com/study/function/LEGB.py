@@ -19,7 +19,7 @@ def globel_func():
         b = 20  # local 局部变量
         print("a = ", a, "b = ", b)
 
-    # 函数的嵌套
+    # 函数的嵌套，只能在内部进行调用
     inner_func()
 
 

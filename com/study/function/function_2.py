@@ -78,3 +78,19 @@ print(list(fiter_return))
 # 匿名函数--lambda关键字
 map_return_value = map(lambda x: x * x, [1, 2, 3, 4, 5])
 print(list(map_return_value))
+
+
+def addTest():
+    print("这是一个参数")
+
+# 将函数作为参数进行传递
+def fucTest(func):
+    print("打印测试")
+    # 高阶函数，不能修改func的源代码
+    return func
+
+# 先执行addTest，再执行之前的打印信息
+fucTest(addTest())
+
+# 没有执行addTest的打印信息
+print(fucTest(addTest))
