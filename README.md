@@ -13,7 +13,3 @@ encode 在编码的同时，会把数据转换成bytes类型
 decode 在解码的时候，会把bytes类型数据转换为字符串
 
 ### Django--web
-=======
-# pythonRoad
-python学习之路
->>>>>>> 66c4a8265520873342d93c68548ab0bb873d8966
